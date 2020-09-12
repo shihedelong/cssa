@@ -6,7 +6,7 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/video-4.mp4" autoPlay loop muted />
+      <video src={process.env.PUBLIC_URL + "/videos/video-4.mp4"} autoPlay loop muted />
       <h1>Start your colorful life with CSSA.</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
